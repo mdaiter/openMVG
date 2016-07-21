@@ -63,7 +63,7 @@ public:
     const std::string& sfileNameDescs) const
   {
     return saveFeatsToFile(sfileNameFeats, feats_)
-          & saveDescsToBinFile(sfileNameDescs, descs_);
+          & saveDescsToFile(sfileNameDescs, descs_);
   }
 
   /// Mutable and non-mutable FeatureT getters.
